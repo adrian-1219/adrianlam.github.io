@@ -1,0 +1,316 @@
+h1, h5 {
+	font-family: "Ubuntu Mono";
+}
+h2, h3, h4, h6 {
+	font-family: "Ubuntu Mono";
+	text-align: center;
+}
+body {
+	background-color:#242f3f;
+	color: lightcyan;
+}
+.page-title {
+	text-align: center;
+}
+.about-ul li {
+	display: flex;
+	flex-direction: row;
+}
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.project {
+	border-style: none;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+p {
+	text-align: center;
+}
+.window-p {
+	width: 75%;
+	margin: auto;
+}
+.modal-title {
+	color: lightskyblue;
+}
+.modal-header {
+	background-color: black;
+}
+.modal-body {
+	background-color: rgb(33, 37, 41);
+}
+.window {
+	background-color: rgb(33, 37, 41);
+	max-width: 1000px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+.experience-card {
+	background-color:#242f3f;
+	max-width: 500px;
+	margin: auto;
+}
+.experience-btn {
+	background-color: #242f3f;
+	color: lightcyan !important;
+	opacity: 80%;
+}
+.experience-btn:hover {
+	opacity: 100%;
+}
+.technology-icon {
+	transition-duration: 0.2s;
+	font-size: 50px;
+	padding: 10px;
+}
+.close {
+	background-color: lightskyblue;
+	border: none;
+	border-radius: 20%;
+}
+.list {
+	display: table;
+  	margin: 0 auto;
+}
+a:link {
+	color: lightskyblue;
+	text-decoration: none;
+}
+a:visited {
+	color: lightskyblue;
+}
+a:hover {
+	color: cyan;
+}
+figure {
+	display:inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+figure figcaption {
+	text-align: center;
+}
+figure a {
+	margin: auto;
+}
+.customBtn {
+	transition-duration: 0.2s;
+	border: none;
+	padding-top: 5px;
+}
+.customBtn:hover {
+	width: 80px;
+	padding-top: 0px;
+}
+.customBtn:focus {
+	border: solid lightcyan;
+	background-color: lightcyan;
+	border-radius: 20%;
+}
+.desktopIcon {
+	width: 75px;
+	padding-bottom: 10px;
+}
+.navbarIcon {
+	width: 50px;
+	margin: auto;
+	padding-right: 10px;
+}
+.dropdown-item {
+	padding: 10px;
+}
+.dropdown-a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: lightcyan !important;
+	opacity: 80%;
+	text-decoration: none;
+}
+.dropdown-a:hover {
+	opacity: 100%;
+}
+.accordian-image-container {
+	max-width: 700px;
+	margin: auto;
+}
+.accordian-image {
+	padding-top: 1em;
+	width: 100%;
+	margin: auto;
+}
+.discord-bot-image {
+	width: 100%;
+}
+.album-image {
+	width: 100%;
+	transition-duration: 0.2s;
+}
+.album-image:hover {
+	width: 100%;
+	opacity: 85%;
+}
+.center {
+	margin: auto;
+}
+.right {
+	margin-right: 0px;
+}
+#clock, #date {
+	color: lightcyan;
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+}
+.load {
+	animation: fadeInLogo ease 0.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+
+	padding-top: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #242f3f;
+	padding-bottom: 5%;
+}
+.icons {
+	animation: fadeInIcons ease 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+.navbar-dropdown {
+	color: lightcyan !important;
+	opacity: 80%;
+}
+.navbar-dropdown:hover {
+	opacity: 100%;
+}
+.auto-margin {
+	margin: auto;
+}
+.accordion-button {
+	background-color: #242f3f;
+	color: lightcyan;
+	font-family: "Ubuntu Mono";
+}
+.accordion-item {
+	background-color: rgb(33, 37, 41);
+	color: lightcyan;
+}
+.accordion-button:not(.collapsed) {
+	color: lightcyan;
+	background-color: rgb(33, 37, 41);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.form-control {
+	background-color: #242f3f;
+	border: 1px solid lightcyan;
+	color: lightcyan;
+}
+.form-control:focus {
+	background-color: #242f3f;
+	color: lightcyan;
+}
+.submit-btn {
+	background-color: #242f3f;
+	border-color: lightcyan;
+	color: lightcyan;
+}
+.submit-btn:hover {
+	background-color: rgb(33, 37, 41);
+	border-color: lightcyan;
+	color: lightcyan;
+}
+#messageInput {
+	height: 100%;
+}
+.process-header {
+
+}
+.process-p {
+	text-align: left;
+}
+.process-image {
+	width:100%;
+	padding: 1em 0;
+}
+.color-cyan {
+	background-color: cyan;
+	padding-top: 20%;
+	width: 20%;
+}
+.color-lightcyan {
+	background-color: lightcyan;
+	padding-top: 20%;
+	width: 20%;
+}
+.color-lightskyblue {
+	background-color: lightskyblue;
+	padding-top: 20%;
+	width: 20%;
+}
+.color-navy {
+	background-color: #242f3f;
+	padding-top: 20%;
+	width: 20%;
+}
+.color-gray {
+	background-color: rgb(33, 37, 41);
+	padding-top: 20%;
+	width: 20%;
+}
+@keyframes fadeInLogo { 
+    0% { 
+        opacity: 0; 
+		padding-top: 10%;
+    } 
+    100% { 
+        opacity: 1;
+		padding-top: 5%; 
+     } 
+} 
+@keyframes fadeInIcons { 
+    0% { 
+        opacity: 0; 
+		padding-top: 5%;
+    } 
+	50% { 
+        opacity: 0; 
+		padding-top: 5%;
+    } 
+    100% { 
+        opacity: 1;
+		padding-top: 0%; 
+     } 
+} 
+
+@media (min-width: 0px) {
+    .logo {
+        width: 40%;
+    }
+}
+@media (min-width: 576px) {
+    .logo {
+        width: 30%;
+    }
+}
+@media (min-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+}
+@media (min-width: 992px) {
+    .logo {
+        width: 15%;
+    }
+}
+@media (min-width: 1200px) {
+    .logo {
+        width: 10%;
+    }
+}
